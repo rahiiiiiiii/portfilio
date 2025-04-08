@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muhamad Rahil | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Rahil</div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section">
+    <div class="text-content">
+      <h1>Hi, I'm <span class="highlight">Muhamad Rahil</span></h1>
+      <h2>A Computer Science Student</h2>
+      <p>Passionate about programming, problem-solving, and tech innovation. Always eager to learn and grow.</p>
+      <div class="buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="mailto:mohammedrahil380@gmail.com" class="btn">Hire Me</a>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="https://i.pinimg.com/originals/94/95/90/949590d5d22b2a3b648c54725fc6163a.png" alt="Profile Image">
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C, C++, Java</li>
+      <li>DSA</li>
+      <li>Leadership</li>
+      <li>Communication</li>
+      <li>Critical Thinking</li>
+      <li>Problem Solving</li>
+      <li>Project Management</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Online Bus Ticket System (2024)</strong><br>
+        C & MySQL - Booking, Browsing, Cancelling.
+      </li>
+      <li>
+        <strong>Resume Builder (2025)</strong><br>
+        Java & MySQL - Login, Templates, User Interface.
+      </li>
+      <li>
+        <strong>Online Shopping Site</strong><br>
+        HTML, CSS, JS, Python, MySQL - Admin/User portals, Product handling.
+      </li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>10th - 2021</strong>: NEMHSS, Kerala - 100%</li>
+      <li><strong>12th - 2023</strong>: SSMHS, Kerala - 85%</li>
+      <li><strong>UG (2023–2027)</strong>: SRM University - CGPA: 8.51 (Till 3rd Sem)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> mohammedrahil380@gmail.com</p>
+    <p><strong>Phone:</strong> 8590495418</p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/rahiiiiiii/Rahil" target="_blank">rahiiiiiii</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/muhamad-rahil-a4a401326" target="_blank">muhamad-rahil</a></p>
+    <p><strong>Location:</strong> Malappuram, Kodinhi, Kerala</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Muhamad Rahil. All rights reserved.
+  </footer>
+
+  <script>
+    // Smooth scrolling animation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    });
+  </script>
+</body>
+</html>
