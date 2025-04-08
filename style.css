@@ -92,11 +92,7 @@ nav ul li a.active {
   color: #fff;
 }
 
-.image-container img {
-  width: 350px;
-  border-radius: 50%;
-  box-shadow: 0 0 30px #e94b5f44;
-}
+
 
 section {
   padding: 60px 10%;
